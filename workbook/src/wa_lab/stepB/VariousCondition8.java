@@ -1,0 +1,70 @@
+package wa_lab.stepB;
+
+import java.util.*;
+
+public class VariousCondition8 {
+	int num1, num2, num3;
+	Scanner s =  new Scanner(System.in);
+	
+	VariousCondition8(){
+		print_result();
+	}
+	
+	private void print_result() {
+		System.out.print("첫번째 숫자를 입력하세요.");
+		num1 = s.nextInt();
+		System.out.print("두번째 숫자를 입력하세요.");
+		num2 = s.nextInt();
+		System.out.print("세번째 숫자를 입력하세요.");
+		num3 = s.nextInt();
+		
+		if(first(num1,num2,num3)==true) {
+			System.out.println("1번 조건 만족 : 3개중 숫자중 적어도 두 수의 값이 같다.");
+		}
+		if(second(num1,num2,num3)==true) {
+			System.out.println("2번 조건 만족 : 3개의 숫자 중 적어도 두 수의 크기가 모두 50보다 크다");
+		}
+		if(third(num1,num2,num3)==true) {
+			System.out.println("3번 조건 만족 : 3개의 숫자 중 어떤 두 수의 합이 나머지 하나의 숫자와 같다.");
+		}
+		if(fourth(num1,num2,num3)==true) {
+			System.out.println("4번 조건 만족 : 3개의 숫자 중 어떤 하나의 수로 다른 두 수를 누면 나누어 떨어지는 경우가 있다.");
+		}
+		
+	}
+	
+	private Boolean first(int num1, int num2, int num3) {
+		if(num1==num2||num1==num3||num2==num3) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+	
+	private Boolean second(int num1, int num2, int num3) {
+		if((num1>50)&&(num2>50)||(num1>50)&&(num3>50)||(num2>50)&&(num3>50)) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+	
+	private Boolean third(int num1, int num2, int num3) {
+		if((num1+num2)==num3||(num1+num3)==num2||((num2+num3)==num1)) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+	
+	private Boolean fourth(int num1, int num2, int num3) {
+		if(((num2%num1==0)&&(num3%num1==0)||((num1%num2==0)&&(num3%num2==0))||(num2%num3==0)&&(num1%num3==0))) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+	
+	
+	
+}
