@@ -12,12 +12,8 @@ public class StepEManager {
          System.out.println("2. 우직각 삼각형의 출력");
          System.out.println("3. 이등변 삼각형의 출력");
          System.out.println("4. 구구단의 출력");
-         System.out.println("5. 직사각형의 종류별 갯수 파악");
-         System.out.println("6. 아파트 종류별 갯수 파악");
-         System.out.println("7. 1차 메소드의 좌표 구하기");
-         System.out.println("8. 2차 메소드의 좌표 구하기");
-         System.out.println("9. 구구단 출력");
-         System.out.println("10. 배타적 배수 출력하기");
+         System.out.println("5. 구구단의 출력2");
+         System.out.println("6.	숫자 행열 맞춰 출력");
          System.out.println("=>원하는 메뉴는?(0:exit) :");
          menu = s.nextInt();
          if(menu == 0) break;
