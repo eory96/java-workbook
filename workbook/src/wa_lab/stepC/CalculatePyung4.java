@@ -15,7 +15,7 @@ public class CalculatePyung4 {
 		System.out.print("아파트의 분양 면적(제곱미터)을 입력하시오");
 		m2_area=s.nextDouble();
 		pyung_area =m2_area/3.305;
-		System.out.println("아파트의 평형은 "+pyung_area+"이고 ");
+		System.out.printf("아파트의 평형은 %.1f 이고",pyung_area);
 	}
 	
 	public void result() {
