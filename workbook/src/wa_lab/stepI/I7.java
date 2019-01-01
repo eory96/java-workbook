@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class I7 {
 	int menu,price;
-	//String no ="N";
 	int count=0;
 	String str;
 	Scanner s = new Scanner(System.in);
