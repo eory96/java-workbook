@@ -38,25 +38,25 @@ public class stepHManager {
 				H4 a4 = new H4();
 				a4.print_result();
 				break;
-			/*case 5:
-				G5 a5 = new G5();
+			case 5:
+				H5 a5 = new H5();
 				//a5.print_result();
 				break;	
 			case 6:
-				G6 a6 = new G6();		
-				//a6.print_result();
+				H6 a6 = new H6();		
+				a6.print_result();
 				break;
 			case 7:
-				G7 a7 = new G7();
+				H7 a7 = new H7();
 				a7.print_result();
 				break;
 				
-			/*case 8:
-				F8 a8 = new F8();
-				a8.print_result();
+			case 8:
+				H8 a8 = new H8();
+				//a8.print_result();
 				break;
 			case 9:
-				F9 a9 = new F9();
+				H9 a9 = new H9();
 				a9.print_result();
 				break;
 			/*case 10:
