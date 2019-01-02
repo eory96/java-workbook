@@ -12,11 +12,11 @@ public class stepHManager {
          System.out.println("2. 로또 번호 만들기.");
          System.out.println("3. 로또 번호 당첨 확인하기.");
          System.out.println("4. 가위바위보 게임하기.");
-         System.out.println("5. pc방 요금 계산하기.");
-         System.out.println("6.	쇼핑몰 매풀 계산기.");
-         System.out.println("7. 놀이공원 매표소.");
-         //System.out.println("8. 겹치지 않는 숫자 10개 입력받기");
-         //System.out.println("9. 배열을 이용한 연중 날ㅉ 계산");
+         System.out.println("5. 슬롯 머신 만들기.");
+         System.out.println("6.	5개 숫자의 제곱수 조합 구하기.");
+         System.out.println("7. 문자의 개수와 나누어 출력하기.");
+         System.out.println("8. 문자열 바꾸기.");
+         System.out.println("9. 사용자 정보 출력하기.");
          //System.out.println("10. 배타적 배수 출력하기");
          System.out.println("=>원하는 메뉴는?(0:exit) :");
          menu = s.nextInt();
