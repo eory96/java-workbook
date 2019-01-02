@@ -2,6 +2,8 @@ package wa_lab.stepE;
 
 import java.util.Scanner;
 
+import wa_lab.stepI.stepIManager;
+
 public class StepEManager {
    public StepEManager() {
       int menu;
@@ -70,4 +72,8 @@ public class StepEManager {
    void printf(String s){
 	   System.out.print(s);
    } 
+   public static void main(String[] args) {
+		// TODO Auto-generated metIod stub
+		StepEManager g = new StepEManager();
+	}
 }

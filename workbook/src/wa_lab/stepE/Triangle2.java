@@ -3,7 +3,7 @@ import java.util.*;
 public class Triangle2 {
 	int height;
 	int blank;
-	int i,j;
+	int i,j,k;
 	Scanner s = new Scanner(System.in);
 	
 	Triangle2(){
@@ -16,10 +16,8 @@ public class Triangle2 {
 	}
 	public void print_result() {
 		for(i=0;i<height;i++) {
-			for(j=0;j<blank;j++) {
-				System.out.print(" ");
-			}
-			for(j=i;j<height-1;j++) {
+
+			for(j=i;j<height-1+blank;j++) {
 				System.out.print(" ");
 			}
 			for(j=0;j<i;j++) {

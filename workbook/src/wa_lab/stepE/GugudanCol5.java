@@ -17,6 +17,19 @@ public class GugudanCol5 {
 		column = s.nextInt();
 	}
 	public void print_result() {
+		if(mode==1)
+			mode=mode+2;
+		
+		for(i=mode;i<10;i=i+2) {
+			for(j=1;j<10;j++) {
+				System.out.printf("%d x %d = %d		",i,j,i*j);
+				if(j%column==0)
+					System.out.print("\n");
+			}
+			System.out.print("\n");
+			System.out.print("\n");
+		}
+		/*
 		if(mode==1) {
 			for(i=3;i<10;i=i+2) {
 				for(j=1;j<10;j++) {
@@ -35,6 +48,6 @@ public class GugudanCol5 {
 				}
 				System.out.print("\n");
 			}
-		}
+		}*/
 	}
 }
