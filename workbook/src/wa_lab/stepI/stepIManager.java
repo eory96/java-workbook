@@ -8,13 +8,13 @@ public class stepIManager {
       Scanner s = new Scanner(System.in);
       while(true) {
          System.out.println("\n---------------------");
-         System.out.println("1. 1에100사이의 숫자 맞추기");
-         System.out.println("2. 로또 번호 만들기.");
-         System.out.println("3. 로또 번호 당첨 확인하기.");
-         System.out.println("4. 가위바위보 게임하기.");
-         System.out.println("5. pc방 요금 계산하기.");
-         System.out.println("6.	쇼핑몰 매풀 계산기.");
-         System.out.println("7. 놀이공원 매표소.");
+         System.out.println("1. 메뉴판 보여주기");
+         System.out.println("2. 빈칸과 함께 특정 문자를 개수만큼 찍기");
+         System.out.println("3. 비만판정.");
+         System.out.println("4. 메뉴번호 받아오기.");
+         System.out.println("5. 최댓값 리턴하는 메서드.");
+         System.out.println("6.	임의의 숫자를 만들어 구간을 리턴하는 메소드 만들기.");
+         System.out.println("7. 자판기에서 선택한 음료 가격을 리턴하는 메소드 만들기.");
          //System.out.println("8. 겹치지 않는 숫자 10개 입력받기");
          //System.out.println("9. 배열을 이용한 연중 날ㅉ 계산");
          //System.out.println("10. 배타적 배수 출력하기");
