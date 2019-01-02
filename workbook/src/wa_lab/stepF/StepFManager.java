@@ -74,4 +74,8 @@ public class StepFManager {
    void printf(String s){
 	   System.out.print(s);
    } 
+   public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StepFManager s=new StepFManager();
+	}
 }

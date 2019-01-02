@@ -4,11 +4,9 @@ import java.util.*;
 
 public class F7 {
 	int number[][] = new int[5][3]; 
-	int newnum;
 	int floor_total[] = new int[5]; 
 	int line_total[] = new int[3];
 	int total;
-	int ho;
 	int i, j;
 	Scanner s = new Scanner(System.in);
 	

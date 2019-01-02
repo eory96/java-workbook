@@ -4,7 +4,6 @@ import java.util.*;
 
 public class F5 {
 	int height, weight;
-	double bmi;
 	int bmilist[][] = new int[10][3];
 	int count;
 	int i;

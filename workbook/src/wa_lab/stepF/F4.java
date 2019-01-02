@@ -6,7 +6,6 @@ public class F4 {
 	int jumsu[][] = new int[5][3];
 	int sum[] = new int[5];
 	double average[] = new double[5]; 
-	int kor, eng, mat;
 	int i, j;
 	Scanner s = new Scanner(System.in);
 	
@@ -30,11 +29,14 @@ public class F4 {
 		for(int i = 0; i < 5; i++)
 			average[i] = (double)sum[i] / 3.0;
 		
-		System.out.printf("1번학생의 총점은 %d이고, 평균은 %.1f입니다.\n",sum[0],average[0]);
-		System.out.printf("2번학생의 총점은 %d이고, 평균은 %.1f입니다.\n",sum[1],average[1]);
-		System.out.printf("3번학생의 총점은 %d이고, 평균은 %.1f입니다.\n",sum[2],average[2]);
-		System.out.printf("4번학생의 총점은 %d이고, 평균은 %.1f입니다.\n",sum[3],average[3]);
-		System.out.printf("5번학생의 총점은 %d이고, 평균은 %.1f입니다.\n",sum[4],average[4]);
+		for(i=0;i<5;i++) {
+			System.out.printf("%d의 총점은 %d이고, 평균은 %.1f입니다.\n",i+1,sum[i],average[i]);
+		}
+		//System.out.printf("1번학생의 총점은 %d이고, 평균은 %.1f입니다.\n",sum[0],average[0]);
+		//System.out.printf("2번학생의 총점은 %d이고, 평균은 %.1f입니다.\n",sum[1],average[1]);
+		//System.out.printf("3번학생의 총점은 %d이고, 평균은 %.1f입니다.\n",sum[2],average[2]);
+		//System.out.printf("4번학생의 총점은 %d이고, 평균은 %.1f입니다.\n",sum[3],average[3]);
+		//System.out.printf("5번학생의 총점은 %d이고, 평균은 %.1f입니다.\n",sum[4],average[4]);
 	}
 	
 }

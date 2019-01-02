@@ -3,9 +3,8 @@ package wa_lab.stepF;
 import java.util.*;
 
 public class F6 {
-	int number[][] = new int[5][3]; int newnum;
+	int number[][] = new int[5][3]; 
 	int total;
-	int ho;
 	int i, j;
 	Scanner s = new Scanner(System.in);
 	

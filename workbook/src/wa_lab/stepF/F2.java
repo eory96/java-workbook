@@ -4,9 +4,9 @@ import java.util.*;
 
 public class F2 {
 	double score[] = new double[10]; // 심사점수 리스트
-	double maxscore, minscore; double total;
+	double maxscore, minscore; 
+	double total;
 	double average;
-	//int newnum;
 	int i;
 	Scanner s = new Scanner(System.in);
 	

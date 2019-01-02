@@ -4,8 +4,6 @@ import java.util.*;
 
 public class F8 {
 	int number[] = new int[10];// 사용자가 입력한 숫자 10개
-	int newnum; 
-	int count; 
 	boolean dup=false; 
 	int i;
 	Scanner s = new Scanner(System.in);

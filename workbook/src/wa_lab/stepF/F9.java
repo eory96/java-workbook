@@ -33,7 +33,7 @@ public class F9 {
 			return;
 		}
 		if(monthdays[month-1]<day) {
-			System.out.printf("잘못 입력하셨습니다2.\n");
+			System.out.printf("잘못 입력하셨습니다.\n");
 			return;
 		}
 		System.out.printf("이 날 짜는 1년 중 %d번째 날에 해당 됩니다.",calculate());
