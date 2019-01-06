@@ -22,9 +22,9 @@ public class InformationManage {
 		System.out.print("학생이름, 학번, 성별을 입력하세요 : ");
 		name = s.next();
 		id = s.next();
-		sex = s.next();
+		sex = s.nextLine();
 		System.out.print("주소를 입력하세요 : ");
-		address = s.next();
+		address = s.nextLine();
 		System.out.print("전화 번호를 입력하세요 : ");
 		phone = s.next();
 		System.out.print("복학생입니까?(Y/N) ");
@@ -47,9 +47,9 @@ public class InformationManage {
 		System.out.print("학생이름, 학번, 성별을 입력하세요 : ");
 		name = s.next();
 		id = s.next();
-		sex = s.next();
+		sex = s.nextLine();
 		System.out.print("주소를 입력하세요 : ");
-		address = s.next();
+		address = s.nextLine();
 		System.out.print("전화 번호를 입력하세요 : ");
 		phone = s.next();
 		System.out.print("복학생입니까?(Y/N) ");
