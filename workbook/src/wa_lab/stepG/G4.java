@@ -52,6 +52,8 @@ public class G4 {
 			System.out.println("이에 대한 중개 수수료는 "+charge+"원입니다. ");
 		}
 	}
+	
+	
 	private void rent() {
 		System.out.print("부동산 거래금액(원)을 입력하세요 : ");
 		money = s.nextInt();
@@ -85,6 +87,8 @@ public class G4 {
 			System.out.println("이에 대한 중개 수수료는 "+charge+"원입니다. ");
 		}
 	}
+	
+	
 	public void print_result() {
 		System.out.println("지금까지의 수수료 총액은 "+total_charge+"원입니다. ");
 	}

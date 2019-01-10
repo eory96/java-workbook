@@ -5,7 +5,6 @@ import java.util.*;
 public class G1 {
 	int birth_year; 
 	int age[] = new int[100];
-	int count_person; 
 	int count_baby;
 	int count_child; 
 	int count_youth; 

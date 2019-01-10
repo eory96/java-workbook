@@ -6,7 +6,6 @@ public class G6 {
 	int order[] = {0,0,0};
 	int sale;
 	int total_sale;
-	int total_order[] = {0,0,0};
 	int price[] = {10000, 6000, 3000};
 	int i;
 	Scanner s = new Scanner(System.in);

@@ -57,6 +57,7 @@ public class G3 {
 			return "F";
 		}
 	}
+	
 	public void print_result() {
 		calculate1();
 		calculate3();
